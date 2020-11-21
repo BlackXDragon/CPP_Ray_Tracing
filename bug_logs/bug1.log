@@ -1,0 +1,3223 @@
+Enter the path to your scene file: scene.txt
+Enter the path to your destination file: test3.ppm
+Please wait till we render your scene!
+Finished reading scene...
+0 0
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+1 0
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+2 0
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+3 0
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+4 0
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+5 0
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+6 0
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+7 0
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+8 0
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+9 0
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+10 0
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+11 0
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+12 0
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+13 0
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+14 0
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+15 0
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+16 0
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+17 0
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+18 0
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+19 0
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+0 1
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+1 1
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+2 1
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+3 1
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+4 1
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+5 1
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+6 1
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+7 1
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+8 1
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+9 1
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+10 1
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+11 1
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+12 1
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+13 1
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+14 1
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+15 1
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+16 1
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+17 1
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+18 1
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+19 1
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+0 2
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+1 2
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+2 2
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+3 2
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+4 2
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+5 2
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+6 2
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+7 2
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+8 2
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+9 2
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+10 2
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+11 2
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+12 2
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+13 2
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+14 2
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+15 2
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+16 2
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+17 2
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+18 2
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+19 2
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+0 3
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+1 3
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+2 3
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+3 3
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+4 3
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+5 3
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+6 3
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+7 3
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+8 3
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+9 3
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+10 3
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+11 3
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+12 3
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+13 3
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+14 3
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+15 3
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+16 3
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+17 3
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+18 3
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+19 3
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+0 4
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+1 4
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+2 4
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+3 4
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+4 4
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+5 4
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+6 4
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+7 4
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+8 4
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+9 4
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+10 4
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+11 4
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+12 4
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+13 4
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+14 4
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+15 4
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+16 4
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+17 4
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+18 4
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+19 4
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+0 5
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+1 5
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+2 5
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+3 5
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+4 5
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+5 5
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+6 5
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+7 5
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+8 5
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+9 5
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+10 5
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+11 5
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+12 5
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+13 5
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+14 5
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+15 5
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+16 5
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+17 5
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+18 5
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+19 5
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+0 6
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+1 6
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+2 6
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+3 6
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+4 6
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+5 6
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+6 6
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+7 6
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+8 6
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+9 6
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+10 6
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+11 6
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+12 6
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+13 6
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+14 6
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+15 6
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+16 6
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+17 6
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+18 6
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+19 6
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+0 7
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+1 7
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+2 7
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+3 7
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+4 7
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+5 7
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+6 7
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+7 7
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+8 7
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.75198
+Nearest: 2.75198 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+9 7
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.44913
+Nearest: 2.44913 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+10 7
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.44913
+Nearest: 2.44913 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+11 7
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.75198
+Nearest: 2.75198 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+12 7
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+13 7
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+14 7
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+15 7
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+16 7
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+17 7
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+18 7
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+19 7
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+0 8
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+1 8
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+2 8
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+3 8
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+4 8
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+5 8
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+6 8
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+7 8
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.55388
+Nearest: 2.55388 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+8 8
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.25434
+Nearest: 2.25434 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+9 8
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.15938
+Nearest: 2.15938 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+10 8
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.15938
+Nearest: 2.15938 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+11 8
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.25434
+Nearest: 2.25434 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+12 8
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.55388
+Nearest: 2.55388 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+13 8
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+14 8
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+15 8
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+16 8
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+17 8
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+18 8
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+19 8
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+0 9
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+1 9
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+2 9
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+3 9
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+4 9
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+5 9
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+6 9
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+7 9
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.31088
+Nearest: 2.31088 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+8 9
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.11824
+Nearest: 2.11824 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+9 9
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.04275
+Nearest: 2.04275 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+10 9
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.04275
+Nearest: 2.04275 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+11 9
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.11824
+Nearest: 2.11824 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+12 9
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.31088
+Nearest: 2.31088 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+13 9
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+14 9
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+15 9
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+16 9
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+17 9
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+18 9
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+19 9
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+0 10
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+1 10
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+2 10
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+3 10
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+4 10
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+5 10
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+6 10
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+7 10
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.25539
+Nearest: 2.25539 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+8 10
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.0795
+Nearest: 2.0795 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+9 10
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.00836
+Nearest: 2.00836 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+10 10
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.00836
+Nearest: 2.00836 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+11 10
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.0795
+Nearest: 2.0795 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+12 10
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.25539
+Nearest: 2.25539 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+13 10
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+14 10
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+15 10
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+16 10
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+17 10
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+18 10
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+19 10
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+0 11
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+1 11
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+2 11
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+3 11
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+4 11
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+5 11
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+6 11
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+7 11
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.31088
+Nearest: 2.31088 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+8 11
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.11824
+Nearest: 2.11824 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+9 11
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.04275
+Nearest: 2.04275 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+10 11
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.04275
+Nearest: 2.04275 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+11 11
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.11824
+Nearest: 2.11824 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+12 11
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.31088
+Nearest: 2.31088 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+13 11
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+14 11
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+15 11
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+16 11
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+17 11
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+18 11
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+19 11
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+0 12
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+1 12
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+2 12
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+3 12
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+4 12
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+5 12
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+6 12
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+7 12
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.55388
+Nearest: 2.55388 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+8 12
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.25434
+Nearest: 2.25434 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+9 12
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.15938
+Nearest: 2.15938 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+10 12
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.15938
+Nearest: 2.15938 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+11 12
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.25434
+Nearest: 2.25434 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+12 12
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.55388
+Nearest: 2.55388 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+13 12
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+14 12
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+15 12
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+16 12
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+17 12
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+18 12
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+19 12
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+0 13
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+1 13
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+2 13
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+3 13
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+4 13
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+5 13
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+6 13
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+7 13
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+8 13
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.75198
+Nearest: 2.75198 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+9 13
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.44913
+Nearest: 2.44913 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+10 13
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.44913
+Nearest: 2.44913 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+11 13
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: 2.75198
+Nearest: 2.75198 <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 255)>
+Pixel set
+12 13
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+13 13
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+14 13
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+15 13
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+16 13
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+17 13
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+18 13
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+19 13
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+0 14
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+1 14
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+2 14
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+3 14
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+4 14
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+5 14
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+6 14
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+7 14
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+8 14
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+9 14
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+10 14
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+11 14
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+12 14
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+13 14
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+14 14
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+15 14
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+16 14
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+17 14
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+18 14
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+19 14
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+0 15
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+1 15
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+2 15
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+3 15
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+4 15
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+5 15
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+6 15
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+7 15
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+8 15
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+9 15
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+10 15
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+11 15
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+12 15
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+13 15
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+14 15
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+15 15
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+16 15
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+17 15
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+18 15
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+19 15
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+0 16
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+1 16
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+2 16
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+3 16
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+4 16
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+5 16
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+6 16
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+7 16
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+8 16
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+9 16
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+10 16
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+11 16
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+12 16
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+13 16
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+14 16
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+15 16
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+16 16
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+17 16
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+18 16
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+19 16
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+0 17
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+1 17
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+2 17
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+3 17
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+4 17
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+5 17
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+6 17
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+7 17
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+8 17
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+9 17
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+10 17
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+11 17
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+12 17
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+13 17
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+14 17
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+15 17
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+16 17
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+17 17
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+18 17
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+19 17
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+0 18
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+1 18
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+2 18
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+3 18
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+4 18
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+5 18
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+6 18
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+7 18
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+8 18
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+9 18
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+10 18
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+11 18
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+12 18
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+13 18
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+14 18
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+15 18
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+16 18
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+17 18
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+18 18
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+19 18
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+0 19
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+1 19
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+2 19
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+3 19
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+4 19
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+5 19
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+6 19
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+7 19
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+8 19
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+9 19
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+10 19
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+11 19
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+12 19
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+13 19
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+14 19
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+15 19
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+16 19
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+17 19
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+18 19
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+19 19
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+0 20
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+1 20
+Created ray
+Finding nearest object
+Object: <Sphere (0, 0, 2) 1 <Color (0, 0, 255)>> dist: -1
+Nearest: 99999 <Sphere (0, 0, 0) 0 <Color (0, 0, 0)>>
+Find nearest done.
+Ray trace done: <Color (0, 0, 0)>
+Pixel set
+2 20
+Created ray
+make: *** [makefile:41: run] Error -1073740940
