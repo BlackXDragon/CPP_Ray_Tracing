@@ -31,6 +31,8 @@ SPH x y z r #col
 where x, y and z are the coordinates of the center of the sphere, r is the radius and #col is the color of the sphere in hex format.
 
 ## Bug:
-1. The rendering processes randomly stops around 3/4 of the way without throwing exceptions when the aspect ratio of the final image is not 1.0 (Return code: -1073740940)
+1. *FIXED* - The rendering processes randomly stops around 3/4 of the way without throwing exceptions when the aspect ratio of the final image is not 1.0 (Return code: -1073740940)
 
 **Log of the output where bug occurred is given under the bug_logs directory.**
+
+**The fix for bugs given in [Fixes.md](./Fixes.md).**

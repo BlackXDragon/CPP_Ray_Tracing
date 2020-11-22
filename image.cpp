@@ -22,11 +22,11 @@ void Image::setPixel(int x, int y, Color color) {
 		throw "Pixel indices out of bounds.";
 	}
 	// std::cout << "in bounds " << this->pixels[x][y] << std::endl;
-	this->pixels[x][y].r = color.r;
+	this->pixels[y][x].r = color.r;
 	// std::cout << "r set" << std::endl;
-	this->pixels[x][y].g = color.g;
+	this->pixels[y][x].g = color.g;
 	// std::cout << "g set" << std::endl;
-	this->pixels[x][y].b = color.b;
+	this->pixels[y][x].b = color.b;
 	// std::cout << x << " " << y << ": " << this-> pixels[x][y] << std::endl;
 }
 
