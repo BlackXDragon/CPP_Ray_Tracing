@@ -24,6 +24,10 @@ Color Color::operator-(const Color& other) {
 	return Color(this->r - other.r, this->g - other.g, this->b - other.b);
 }
 
+Color Color::operator*(double scalar) {
+	return Color(this->r*scalar, this->g*scalar, this->b*scalar);
+}
+
 std::ostream &operator<<(std::ostream &output, const Color& c) {
 	return output << "<Color (" << c.r << ", " << c.g << ", " << c.b << ")>";
 }

@@ -11,6 +11,7 @@ class Color {
 		Color(const char* hex);
 		Color operator+(const Color& other);
 		Color operator-(const Color& other);
+		Color operator*(double scalar);
 };
 
 std::ostream &operator<<(std::ostream &output, const Color& v);
