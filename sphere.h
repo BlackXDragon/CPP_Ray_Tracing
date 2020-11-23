@@ -4,15 +4,17 @@
 #include "vector3d.h"
 #include "color.h"
 #include "ray.h"
+#include "material.h"
 
 class Sphere {
 	public:
 		Vector3D center = Vector3D(0,0,0);
 		double radius = 0;
-		Color color = Color();
-		Sphere(Vector3D center, int radius, Color color);
+		Material material = Material();
+		Sphere(Vector3D center, int radius, Material material);
 		Sphere();
 		double intersects(Ray ray);
+		Vector3D normal(Vector3D point);
 };
 
 std::ostream &operator<<(std::ostream &output, const Sphere& s);
