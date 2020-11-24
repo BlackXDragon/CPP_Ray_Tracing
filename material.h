@@ -3,14 +3,15 @@
 
 #include "color.h"
 
-struct Material
-{
-	Color color;
-	double ambient;
-	double diffuse;
-	double specular;
-	Material(Color c, double a, double d, double s);
-	Material();
+class Material {
+	public:
+		Color color;
+		double ambient;
+		double diffuse;
+		double specular;
+		Material(Color c, double a, double d, double s);
+		Material(Color c);
+		Material();
 };
 
 std::ostream &operator<<(std::ostream &output, const Material& m);

@@ -6,13 +6,14 @@
 #include "material.h"
 #include "ray.h"
 #include <algorithm>
+#include <math.h>
 
 class Light {
 	public:
 		Color color;
 		Light();
-		Color calculateDiffuse(Vector3D hit_pos, Material material, Vector3D hit_normal);
-		Color calculateSpecular(Vector3D hit_pos, Material material, Vector3D hit_normal, Vector3D to_cam, double specular_k);
+		virtual Color calculateDiffuse(Vector3D hit_pos, Material material, Vector3D hit_normal);
+		virtual Color calculateSpecular(Vector3D hit_pos, Material material, Vector3D hit_normal, Vector3D to_cam, double specular_k);
 };
 
 class PointLight : public Light {

@@ -28,18 +28,24 @@ image.o: image.cpp image.h color.o
 ray.o: ray.cpp ray.h vector3d.o
 	@g++ -c ray.cpp
 
-sphere.o: sphere.h sphere.cpp ray.o color.o vector3d.o
+material.o: material.cpp material.h color.o
+	@g++ -c material.cpp
+
+light.o: light.cpp light.h color.o vector3d.o ray.o
+	@g++ -c light.cpp
+
+sphere.o: sphere.h sphere.cpp ray.o material.o vector3d.o
 	@g++ -c sphere.cpp
 
-renderer.o: renderer.h renderer.cpp ray.o sphere.o color.o vector3d.o image.o
+renderer.o: renderer.h renderer.cpp ray.o sphere.o color.o material.o vector3d.o image.o
 	@g++ -c renderer.cpp
 
-render: render.cpp renderer.o ray.o sphere.o color.o vector3d.o image.o
-	@g++ -o render render.cpp vector3d.o color.o image.o ray.o sphere.o renderer.o
+render: render.cpp renderer.o ray.o sphere.o color.o vector3d.o image.o light.o
+	@g++ -o render render.cpp vector3d.o color.o image.o ray.o material.o sphere.o light.o renderer.o
 
 run: render
 	@./render
 
 clean:
-	rm -f vector3d.o color.o image.o ray.o sphere.o renderer.o render
+	rm -f vector3d.o color.o image.o ray.o material.o light.o sphere.o renderer.o render
 	rm -f tests/vectortest tests/colortest tests/imagetest

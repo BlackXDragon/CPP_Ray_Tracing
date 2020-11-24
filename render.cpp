@@ -13,6 +13,7 @@ int main() {
 	std::cout << "Please wait till we render your scene!" << std::endl;
 	std::ifstream sceneFile(spath);
 	std::vector<Sphere> objects;
+	std::vector<Light*> lights;
 	Vector3D camera = Vector3D(0, 0, -1);
 	int width = 100, height = 100;
 	std::string line;
@@ -23,27 +24,27 @@ int main() {
 
 			int offset = 4;
 
-			int delim1 = line.substr(offset).find(" ");
-			x = stold(line.substr(offset, delim1));
-			offset += delim1 + 1;
+			int delim = line.substr(offset).find(" ");
+			x = stold(line.substr(offset, delim));
+			offset += delim + 1;
 
-			int delim2 = line.substr(offset).find(" ");
-			y = stold(line.substr(offset, delim2));
-			offset += delim2 + 1;
+			delim = line.substr(offset).find(" ");
+			y = stold(line.substr(offset, delim));
+			offset += delim + 1;
 
-			int delim3 = line.substr(offset).find(" ");
-			z = stold(line.substr(offset, delim3));
+			delim = line.substr(offset).find(" ");
+			z = stold(line.substr(offset, delim));
 			camera = Vector3D(x, y, z);
 		}
 		if(line.substr(0, 3) == "RES") {
 			int offset = 4;
 
-			int delim1 = line.substr(offset).find(" ");
-			width = stold(line.substr(offset, delim1));
-			offset += delim1 + 1;
+			int delim = line.substr(offset).find(" ");
+			width = stold(line.substr(offset, delim));
+			offset += delim + 1;
 
-			int delim2 = line.substr(offset).find(" ");
-			height = stold(line.substr(offset, delim2));
+			delim = line.substr(offset).find(" ");
+			height = stold(line.substr(offset, delim));
 		}
 		if(line.substr(0, 3) == "SPH") {
 			long double x = 0, y = 0, z = -1;
@@ -68,11 +69,35 @@ int main() {
 			offset += delim + 1;
 
 			Color color = Color(line.substr(offset).c_str());
-			objects.push_back(Sphere(center, radius, color));
+			objects.push_back(Sphere(center, radius, Material(color)));
+		}
+		if(line.substr(0, 3) == "PTL") {
+			long double x = 0, y = 0, z = -1;
+
+			int offset = 4;
+
+			int delim = line.substr(offset).find(" ");
+			x = stold(line.substr(offset, delim));
+			offset += delim + 1;
+
+			delim = line.substr(offset).find(" ");
+			y = stold(line.substr(offset, delim));
+			offset += delim + 1;
+
+			delim = line.substr(offset).find(" ");
+			z = stold(line.substr(offset, delim));
+			offset += delim + 1;
+
+			Color color = Color(line.substr(offset).c_str());
+			PointLight PL = PointLight(color, Vector3D(x, y, z));
+			// std::cout << typeid(PL).name() << std::endl;
+			lights.push_back(&PL);
+			// std::cout << "Light: " << x << "," << y << "," << z << " " << color << std::endl;
 		}
 	}
+	// std::cout << typeid(*lights[0]).name() << std::endl;
 	std::cout << "Finished reading scene..." << std::endl;
-	Image result = render(camera, objects, width, height);
+	Image result = render(camera, objects, lights, width, height);
 	std::ofstream myfile;
 	std::cout << "Printing image to PPM file." << std::endl;
 	myfile.open(dpath);

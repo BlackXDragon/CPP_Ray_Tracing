@@ -7,6 +7,13 @@ Material::Material(Color c = Color(), double a = 0.05, double d = 1.0, double s 
 	specular = s;
 }
 
+Material::Material(Color c = Color()) {
+	color = c;
+	ambient = 0.05;
+	diffuse = 1.0;
+	specular = 1.0;
+}
+
 Material::Material() {
 	color = Color();
 	ambient = 0.05;

@@ -1,6 +1,6 @@
 #include "renderer.h"
 
-Image render(Vector3D camera, std::vector<Sphere> objects, int width, int height) {
+Image render(Vector3D camera, std::vector<Sphere> objects, std::vector<Light*> lights, int width, int height) {
 	double aspect_ratio = double(width) / height;
 	Image image = Image(width, height, 255);
 
@@ -18,7 +18,7 @@ Image render(Vector3D camera, std::vector<Sphere> objects, int width, int height
 			// std::cout << j << " " << i << std::endl;
 			Ray ray = Ray(camera, Vector3D(x, y, 0) - camera);
 			// std::cout << "Created ray" << std::endl;
-			Color color = ray_trace(ray, objects);
+			Color color = ray_trace(ray, objects, camera, lights);
 			// std::cout << "Ray trace done: " << color << std::endl;
 			image.setPixel(j, i, color);
 			// std::cout << "Pixel set" << std::endl;
@@ -27,7 +27,7 @@ Image render(Vector3D camera, std::vector<Sphere> objects, int width, int height
 	return image;
 }
 
-Color ray_trace(Ray ray, std::vector<Sphere> objects) {
+Color ray_trace(Ray ray, std::vector<Sphere> objects, Vector3D camera, std::vector<Light*> lights) {
 	Color color = Color();
 	double dist_hit;
 	Sphere object_hit;
@@ -38,7 +38,7 @@ Color ray_trace(Ray ray, std::vector<Sphere> objects) {
 		return color;
 	}
 	Vector3D hit_pos = ray.origin + ray.direction * dist_hit;
-	return color_at(object_hit, hit_pos, objects);
+	return color_at(object_hit, hit_pos, objects, camera, lights);
 }
 
 void find_nearest(Ray ray, std::vector<Sphere> objects, double *dist_hit, Sphere *object_hit, bool *success) {
@@ -59,6 +59,16 @@ void find_nearest(Ray ray, std::vector<Sphere> objects, double *dist_hit, Sphere
 	*object_hit = obj_hit;
 }
 
-Color color_at(Sphere object_hit, Vector3D hit_pos, std::vector<Sphere> objects) {
-	return object_hit.color;
+Color color_at(Sphere object_hit, Vector3D hit_pos, std::vector<Sphere> objects, Vector3D camera, std::vector<Light*> lights) {
+	// std::cout << object_hit << std::endl;
+	// return object_hit.material.color;
+	Vector3D hit_normal = object_hit.normal(hit_pos);
+	Color color = Color("#000000") * object_hit.material.ambient, obj_color = object_hit.material.color;
+	Vector3D to_cam = camera - hit_pos;
+	for (int i = 0; i < lights.size(); i++) {
+		color += lights[i]->calculateDiffuse(hit_pos, object_hit.material, hit_normal);
+		color += lights[i]->calculateSpecular(hit_pos, object_hit.material, hit_normal, to_cam, 50);
+	}
+	// std::cout << color << std::endl;
+	return color;
 }

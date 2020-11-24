@@ -12,8 +12,8 @@ class Color {
 		Color operator+(const Color& other);
 		Color operator-(const Color& other);
 		Color operator*(double scalar);
-		Color operator+=(const Color& other);
-		Color operator-=(const Color& other);
+		Color& operator+=(const Color& other);
+		Color& operator-=(const Color& other);
 };
 
 std::ostream &operator<<(std::ostream &output, const Color& v);

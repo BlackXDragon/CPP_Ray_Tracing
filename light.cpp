@@ -8,7 +8,9 @@ Color Light::calculateDiffuse(Vector3D hit_pos, Material material, Vector3D hit_
 	throw "Error: Light::calculateDiffuse method not implemented.";
 }
 
-Color Light::calculateSpecular(Vector3D hit_pos, Material material, Vector3D hit_normal, Vector3D to_cam, double specular_k) {}
+Color Light::calculateSpecular(Vector3D hit_pos, Material material, Vector3D hit_normal, Vector3D to_cam, double specular_k) {
+	throw "Error: Light::calculateSpecular method not implemented.";
+}
 
 PointLight::PointLight() {
 	this->color = Color("#FFFFFF");
@@ -22,13 +24,19 @@ PointLight::PointLight(Color color, Vector3D position) {
 
 Color PointLight::calculateDiffuse(Vector3D hit_pos, Material material, Vector3D hit_normal) {
 	// Lambert model
+	// std::cout << "PointLight.calculateDiffuse" << std::endl;
 	Ray to_light = Ray(hit_pos, this->position-hit_pos);
-	return material.color * material.diffuse * std::max(hit_normal.dot(to_light.direction), 0.0L);
+	Color change = material.color * material.diffuse * std::max(hit_normal.dot(to_light.direction), 0.0L);
+	// std::cout << "Change: " << change << std::endl;
+	return change;
 }
 
 Color PointLight::calculateSpecular(Vector3D hit_pos, Material material, Vector3D hit_normal, Vector3D to_cam, double specular_k) {
 	// Blinn-Phong model
+	// std::cout << "PointLight.calculateSpecular" << std::endl;
 	Ray to_light = Ray(hit_pos, this->position-hit_pos);
 	Vector3D half_vector = (to_light.direction + to_cam).normalize();
-	return this->color * material.specular * std::pow(std::max(hit_normal.dot(half_vector), 0.0L), specular_k);
+	Color change = this->color * material.specular * pow(std::max(hit_normal.dot(half_vector), 0.0L), specular_k);
+	// std::cout << "Change: " << change << std::endl;
+	return change;
 }
