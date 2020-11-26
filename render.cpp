@@ -89,14 +89,26 @@ int main() {
 			offset += delim + 1;
 
 			Color color = Color(line.substr(offset).c_str());
-			PointLight PL = PointLight(color, Vector3D(x, y, z));
+			Vector3D position = Vector3D(x, y, z);
+			// PointLight PL = PointLight(color, position);
+			PointLight *PL = new PointLight(color, position);
 			// std::cout << typeid(PL).name() << std::endl;
-			lights.push_back(&PL);
-			// std::cout << "Light: " << x << "," << y << "," << z << " " << color << std::endl;
+			// PointLight* PL = (PointLight*) malloc(sizeof(PointLight));
+			// *PL = PointLight(color, position);
+			// std::cout << ' ' << PL << std::endl;
+			lights.push_back(PL);
+		// 	std::cout << "PointLight: ";
+		// 	PL->print();
+		// 	std::cout << ' ' << &PL << std::endl;
 		}
 	}
 	// std::cout << typeid(*lights[0]).name() << std::endl;
 	std::cout << "Finished reading scene..." << std::endl;
+	// for (int i = 0; i < lights.size(); i++) {
+	// 	std::cout << lights[i] << ' ';
+	// 	lights[i]->print();
+	// 	std::cout << std::endl;
+	// }
 	Image result = render(camera, objects, lights, width, height);
 	std::ofstream myfile;
 	std::cout << "Printing image to PPM file." << std::endl;

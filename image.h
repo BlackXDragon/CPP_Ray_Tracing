@@ -3,6 +3,8 @@
 
 #include "Color.h"
 #include <vector>
+#include <cmath>
+#include <algorithm>
 
 class Image {
 	public:

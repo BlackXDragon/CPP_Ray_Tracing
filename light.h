@@ -14,6 +14,7 @@ class Light {
 		Light();
 		virtual Color calculateDiffuse(Vector3D hit_pos, Material material, Vector3D hit_normal);
 		virtual Color calculateSpecular(Vector3D hit_pos, Material material, Vector3D hit_normal, Vector3D to_cam, double specular_k);
+		virtual void print();
 };
 
 class PointLight : public Light {
@@ -23,6 +24,11 @@ class PointLight : public Light {
 		PointLight(Color color, Vector3D position);
 		Color calculateDiffuse(Vector3D hit_pos, Material material, Vector3D hit_normal);
 		Color calculateSpecular(Vector3D hit_pos, Material material, Vector3D hit_normal, Vector3D to_cam, double specular_k);
+		void print();
 };
+
+std::ostream &operator<<(std::ostream &output, const PointLight& pl);
+
+// std::ostream &operator<<(std::ostream &output, const Light& l);
 
 #endif // LIGHT_H

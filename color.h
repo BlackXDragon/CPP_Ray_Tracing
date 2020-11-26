@@ -5,8 +5,8 @@
 
 class Color {
 	public:
-		int r = 0, g = 0, b = 0;
-		Color(int r, int g, int b);
+		long double r = 0, g = 0, b = 0;
+		Color(long double r, long double g, long double b);
 		Color();
 		Color(const char* hex);
 		Color operator+(const Color& other);

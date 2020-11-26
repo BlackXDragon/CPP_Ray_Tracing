@@ -35,7 +35,7 @@ std::ostream &operator<<(std::ostream &output, const Image& im) {
 	output << im.max_color << std::endl;
 	for (int i = 0; i < im.height; i++) {
 		for (int j = 0; j < im.width; j++) {
-			output << im.pixels[i][j].r << " " << im.pixels[i][j].g << " " << im.pixels[i][j].b << " ";
+			output << std::round(std::min(std::max(im.pixels[i][j].r * 255.0, 0.0L), 255.0L)) << " " << std::round(std::min(std::max(im.pixels[i][j].g * 255.0, 0.0L), 255.0L)) << " " << std::round(std::min(std::max(im.pixels[i][j].b * 255.0, 0.0L), 255.0L)) << " ";
 		}
 		output << std::endl;
 	}

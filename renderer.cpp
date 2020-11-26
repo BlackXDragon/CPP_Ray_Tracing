@@ -11,6 +11,12 @@ Image render(Vector3D camera, std::vector<Sphere> objects, std::vector<Light*> l
 	double y0 = -1.0 / aspect_ratio, y1 = 1.0 / aspect_ratio;
 	double ystep = (y1 - y0) / (height - 1.0);
 
+	// std::cout << "Lights: " << std::endl;
+	// lights[0]->print();
+	// std::cout << std::endl;
+	// lights[1]->print();
+	// std::cout << std::endl;
+
 	for (int i = 0; i < height; i++) {
 		double y = y0 + i * ystep;
 		for (int j = 0; j < width; j++) {
@@ -66,6 +72,7 @@ Color color_at(Sphere object_hit, Vector3D hit_pos, std::vector<Sphere> objects,
 	Color color = Color("#000000") * object_hit.material.ambient, obj_color = object_hit.material.color;
 	Vector3D to_cam = camera - hit_pos;
 	for (int i = 0; i < lights.size(); i++) {
+		// std::cout << "Light " << i << std::endl;
 		color += lights[i]->calculateDiffuse(hit_pos, object_hit.material, hit_normal);
 		color += lights[i]->calculateSpecular(hit_pos, object_hit.material, hit_normal, to_cam, 50);
 	}

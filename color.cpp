@@ -1,7 +1,7 @@
 #include "color.h"
 #include <string.h>
 
-Color::Color(int r, int g, int b) {
+Color::Color(long double r, long double g, long double b) {
 	this->r = r;
 	this->g = g;
 	this->b = b;
@@ -11,9 +11,9 @@ Color::Color() {}
 
 Color::Color(const char* hex) {
 	std::string hexString = hex;
-	this->r = strtol(hexString.substr(1,2).c_str(), NULL, 16);
-	this->g = strtol(hexString.substr(3,2).c_str(), NULL, 16);
-	this->b = strtol(hexString.substr(5,2).c_str(), NULL, 16);
+	this->r = strtol(hexString.substr(1,2).c_str(), NULL, 16)/255.0;
+	this->g = strtol(hexString.substr(3,2).c_str(), NULL, 16)/255.0;
+	this->b = strtol(hexString.substr(5,2).c_str(), NULL, 16)/255.0;
 }
 
 Color Color::operator+(const Color& other) {
