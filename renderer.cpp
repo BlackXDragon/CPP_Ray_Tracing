@@ -1,6 +1,6 @@
 #include "renderer.h"
 
-Image render(Vector3D camera, std::vector<Sphere> objects, std::vector<Light*> lights, int width, int height) {
+Image render(Vector3D camera, std::vector<Sphere> objects, std::vector<Light*> lights, int width, int height, int reflection_depth) {
 	double aspect_ratio = double(width) / height;
 	Image image = Image(width, height, 255);
 
@@ -24,7 +24,7 @@ Image render(Vector3D camera, std::vector<Sphere> objects, std::vector<Light*> l
 			// std::cout << j << " " << i << std::endl;
 			Ray ray = Ray(camera, Vector3D(x, y, 0) - camera);
 			// std::cout << "Created ray" << std::endl;
-			Color color = ray_trace(ray, objects, camera, lights);
+			Color color = ray_trace(ray, objects, camera, lights, reflection_depth, 1);
 			// std::cout << "Ray trace done: " << color << std::endl;
 			image.setPixel(j, i, color);
 			// std::cout << "Pixel set" << std::endl;
@@ -33,7 +33,7 @@ Image render(Vector3D camera, std::vector<Sphere> objects, std::vector<Light*> l
 	return image;
 }
 
-Color ray_trace(Ray ray, std::vector<Sphere> objects, Vector3D camera, std::vector<Light*> lights) {
+Color ray_trace(Ray ray, std::vector<Sphere> objects, Vector3D camera, std::vector<Light*> lights, int reflection_depth, int depth) {
 	Color color = Color();
 	double dist_hit;
 	Sphere object_hit;
@@ -44,7 +44,28 @@ Color ray_trace(Ray ray, std::vector<Sphere> objects, Vector3D camera, std::vect
 		return color;
 	}
 	Vector3D hit_pos = ray.origin + ray.direction * dist_hit;
-	return color_at(object_hit, hit_pos, objects, camera, lights);
+	color = color_at(object_hit, hit_pos, objects, camera, lights);
+	if (depth < reflection_depth) {
+		Vector3D hit_normal = object_hit.normal(hit_pos);
+		double c1 = - ray.direction.dot(hit_normal);
+		Vector3D refl_ray_pos = hit_pos + hit_normal * 0.0001;
+		Vector3D refl_ray_dir = ray.direction + hit_normal * 2.0 * c1;
+		Vector3D refr_ray_pos = hit_pos - hit_normal * 0.0001;
+		double n = find_refr_index(objects, refl_ray_pos) / find_refr_index(objects, refr_ray_pos);
+		double c2 = sqrt(1 - n*n * (1 - c1*c1));
+		Vector3D refr_ray_dir = ray.direction * n - hit_normal * (n * c1 - c2);
+		color += ray_trace(Ray(refl_ray_pos, refl_ray_dir), objects, camera, lights, reflection_depth, depth+1)  * object_hit.material.reflection;
+		color += ray_trace(Ray(refr_ray_pos, refr_ray_dir), objects, camera, lights, reflection_depth, depth+1)  * object_hit.material.refraction;
+	}
+	return color;
+}
+
+double find_refr_index(std::vector<Sphere> objects, Vector3D position) {
+	for (int i = 0; i < objects.size(); i++) {
+		if (objects[i].in_object(position))
+			return objects[i].material.refr_ind;
+	}
+	return 1;
 }
 
 void find_nearest(Ray ray, std::vector<Sphere> objects, double *dist_hit, Sphere *object_hit, bool *success) {

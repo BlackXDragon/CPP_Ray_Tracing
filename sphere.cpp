@@ -1,7 +1,7 @@
 #include "sphere.h"
 #include <cmath>
 
-Sphere::Sphere(Vector3D center, int radius, Material material) : center(center), radius(radius), material(material) {}
+Sphere::Sphere(Vector3D center, double radius, Material material) : center(center), radius(radius), material(material) {}
 
 Sphere::Sphere() {}
 
@@ -21,6 +21,10 @@ double Sphere::intersects(Ray ray) {
 
 Vector3D Sphere::normal(Vector3D point) {
 	return (point - this->center).normalize();
+}
+
+bool Sphere::in_object(Vector3D point) {
+	return ((point - this->center).mod() <= this->radius);
 }
 
 std::ostream &operator<<(std::ostream &output, const Sphere& s) {

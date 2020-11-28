@@ -109,7 +109,7 @@ int main() {
 	// 	lights[i]->print();
 	// 	std::cout << std::endl;
 	// }
-	Image result = render(camera, objects, lights, width, height);
+	Image result = render(camera, objects, lights, width, height, 5);
 	std::ofstream myfile;
 	std::cout << "Printing image to PPM file." << std::endl;
 	myfile.open(dpath);

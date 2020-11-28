@@ -1,12 +1,12 @@
 # Basic Ray Tracing in C++
 
-To run the programme use:
+To run the program use:
 
 ```
 make run
 ```
 
-On running the programme, it asks for the path to a scene file (sample file scene.txt is given) and a path to the destination file where the final image will be stored in ppm format.
+On running the program, it asks for the path to a scene file (sample file scene.txt is given) and a path to the destination file where the final image will be stored in ppm format.
 
 ## Syntax for the scene file:
 

@@ -9,7 +9,10 @@ class Material {
 		double ambient;
 		double diffuse;
 		double specular;
-		Material(Color c, double a, double d, double s);
+		double reflection;
+		double refraction;
+		double refr_ind;
+		Material(Color c, double a, double d, double s, double rl, double rr, double rri);
 		Material(Color c);
 		Material();
 };

@@ -9,9 +9,11 @@
 #include <vector>
 #include <cmath>
 
-Image render(Vector3D camera, std::vector<Sphere> objects, std::vector<Light*> lights, int width, int height);
+Image render(Vector3D camera, std::vector<Sphere> objects, std::vector<Light*> lights, int width, int height, int reflection_depth);
 
-Color ray_trace(Ray ray, std::vector<Sphere> objects, Vector3D camera, std::vector<Light*> lights);
+Color ray_trace(Ray ray, std::vector<Sphere> objects, Vector3D camera, std::vector<Light*> lights, int reflection_depth, int depth);
+
+double find_refr_index(std::vector<Sphere> objects, Vector3D position);
 
 void find_nearest(Ray ray, std::vector<Sphere> objects, double *dist_hit, Sphere *object_hit, bool *success);
 
