@@ -1,6 +1,6 @@
-#include "renderer.h"
+// #include "renderer.h"
+#include "read_config.h"
 #include <iostream>
-#include <fstream>
 #include <string>
 
 int main() {
@@ -11,12 +11,12 @@ int main() {
 	std::string dpath;
 	std::cin >> dpath;
 	std::cout << "Please wait till we render your scene!" << std::endl;
-	std::ifstream sceneFile(spath);
 	std::vector<Sphere> objects;
 	std::vector<Light*> lights;
 	Vector3D camera = Vector3D(0, 0, -1);
 	int width = 100, height = 100;
-	std::string line;
+	read_scene(spath, &camera, &objects, &lights, &width, &height);
+	/* std::string line;
 	while(std::getline(sceneFile, line)) {
 		// std::cout << line;
 		if(line.substr(0, 3) == "CAM") {
@@ -101,7 +101,7 @@ int main() {
 		// 	PL->print();
 		// 	std::cout << ' ' << &PL << std::endl;
 		}
-	}
+	} */
 	// std::cout << typeid(*lights[0]).name() << std::endl;
 	std::cout << "Finished reading scene..." << std::endl;
 	// for (int i = 0; i < lights.size(); i++) {
