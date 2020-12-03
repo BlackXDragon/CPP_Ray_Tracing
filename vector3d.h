@@ -14,6 +14,7 @@ class Vector3D {
 		long double dot(const Vector3D& other);
 		long double mod();
 		Vector3D normalize();
+		std::string __repr__();
 };
 
 std::ostream &operator<<(std::ostream &output, const Vector3D& v);

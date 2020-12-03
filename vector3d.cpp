@@ -1,5 +1,6 @@
 #include "vector3d.h"
 #include <cmath>
+#include <string>
 
 Vector3D::Vector3D(long double x, long double y, long double z) {
 	this->x = x;
@@ -32,6 +33,10 @@ long double Vector3D::dot(const Vector3D& other) {
 Vector3D Vector3D::normalize() {
 	long double magnitude = this->mod();
 	return Vector3D(this->x/magnitude, this->y/magnitude, this->z/magnitude);
+}
+
+std::string Vector3D::__repr__() {
+	return "<Vector3D (" + std::to_string(this->x) + ", " + std::to_string(this->y) + ", " + std::to_string(this->z) + ")>";
 }
 
 std::ostream &operator<<(std::ostream &output, const Vector3D& v) {
