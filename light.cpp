@@ -57,6 +57,10 @@ std::string PointLight::__repr__() {
 	return "<PointLight (" + this->color.__repr__() + this->position.__repr__() + ")>";
 }
 
-std::ostream &operator<<(std::ostream &output, const PointLight& pl) {
-	return output << "<PointLight (" << pl.color << ", " << pl.position << ")>";
+std::ostream &operator<<(std::ostream &output, PointLight& pl) {
+	return output << pl.__repr__();
+}
+
+std::ostream &operator<<(std::ostream &output, Light& l) {
+	return output << l.__repr__();
 }

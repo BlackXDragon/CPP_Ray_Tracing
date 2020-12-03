@@ -30,8 +30,8 @@ class PointLight : public Light {
 		std::string __repr__();
 };
 
-std::ostream &operator<<(std::ostream &output, const PointLight& pl);
+std::ostream &operator<<(std::ostream &output, PointLight& pl);
 
-// std::ostream &operator<<(std::ostream &output, const Light& l);
+std::ostream &operator<<(std::ostream &output, Light& l);
 
 #endif // LIGHT_H
