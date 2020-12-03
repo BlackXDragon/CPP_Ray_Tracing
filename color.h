@@ -2,6 +2,7 @@
 #define COLOR_H
 
 #include <iostream>
+#include <string>
 
 class Color {
 	public:
@@ -14,6 +15,7 @@ class Color {
 		Color operator*(double scalar);
 		Color& operator+=(const Color& other);
 		Color& operator-=(const Color& other);
+		std::string __repr__();
 };
 
 std::ostream &operator<<(std::ostream &output, const Color& v);

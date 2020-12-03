@@ -1,5 +1,5 @@
 #include "color.h"
-#include <string.h>
+#include <string>
 
 Color::Color(long double r, long double g, long double b) {
 	this->r = r;
@@ -40,6 +40,10 @@ Color& Color::operator-=(const Color& other) {
 
 Color Color::operator*(double scalar) {
 	return Color(this->r*scalar, this->g*scalar, this->b*scalar);
+}
+
+std::string Color::__repr__() {
+	return "<Color (" + std::to_string(this->r) + ", " + std::to_string(this->g) + ", " + std::to_string(this->b) + ")>";
 }
 
 std::ostream &operator<<(std::ostream &output, const Color& c) {
