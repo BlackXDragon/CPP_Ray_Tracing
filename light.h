@@ -7,6 +7,7 @@
 #include "ray.h"
 #include <algorithm>
 #include <math.h>
+#include <string>
 
 class Light {
 	public:
@@ -15,6 +16,7 @@ class Light {
 		virtual Color calculateDiffuse(Vector3D hit_pos, Material material, Vector3D hit_normal);
 		virtual Color calculateSpecular(Vector3D hit_pos, Material material, Vector3D hit_normal, Vector3D to_cam, double specular_k);
 		virtual void print();
+		virtual std::string __repr__();
 };
 
 class PointLight : public Light {
@@ -25,6 +27,7 @@ class PointLight : public Light {
 		Color calculateDiffuse(Vector3D hit_pos, Material material, Vector3D hit_normal);
 		Color calculateSpecular(Vector3D hit_pos, Material material, Vector3D hit_normal, Vector3D to_cam, double specular_k);
 		void print();
+		std::string __repr__();
 };
 
 std::ostream &operator<<(std::ostream &output, const PointLight& pl);

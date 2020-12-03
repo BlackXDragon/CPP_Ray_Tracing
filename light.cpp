@@ -16,6 +16,10 @@ void Light::print() {
 	std::cout << "<Light (" << this->color << ")>";
 }
 
+std::string Light::__repr__() {
+	return "<Light (" + this->color.__repr__() + ")>";
+}
+
 PointLight::PointLight() {
 	this->color = Color("#FFFFFF");
 	this->position = Vector3D();
@@ -47,6 +51,10 @@ Color PointLight::calculateSpecular(Vector3D hit_pos, Material material, Vector3
 
 void PointLight::print() {
 	std::cout << "<PointLight (" << this->color << ", " << this->position << ")>";
+}
+
+std::string PointLight::__repr__() {
+	return "<PointLight (" + this->color.__repr__() + this->position.__repr__() + ")>";
 }
 
 std::ostream &operator<<(std::ostream &output, const PointLight& pl) {
