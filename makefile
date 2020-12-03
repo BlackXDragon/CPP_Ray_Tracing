@@ -43,9 +43,18 @@ renderer.o: renderer.h renderer.cpp ray.o sphere.o color.o material.o vector3d.o
 render: render.cpp renderer.o ray.o sphere.o color.o vector3d.o image.o light.o
 	@g++ -o render render.cpp vector3d.o color.o image.o ray.o material.o sphere.o light.o renderer.o
 
+read_config.o: read_config.cpp renderer.o ray.o sphere.o color.o vector3d.o image.o light.o
+	@g++ -c read_config.cpp
+
+tests/read_configtest: tests/read_configtest.cpp read_config.o
+	@g++ -o tests/read_configtest tests/read_configtest.cpp vector3d.o color.o image.o ray.o material.o sphere.o light.o renderer.o read_config.o
+
+readconfigtestrun: tests/read_configtest
+	@tests/read_configtest
+
 run: render
 	@./render
 
 clean:
-	rm -f vector3d.o color.o image.o ray.o material.o light.o sphere.o renderer.o render
-	rm -f tests/vectortest tests/colortest tests/imagetest
+	rm -f vector3d.o color.o image.o ray.o material.o light.o sphere.o renderer.o read_config.o render
+	rm -f tests/vectortest tests/colortest tests/imagetest tests/read_configtest
