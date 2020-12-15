@@ -6,40 +6,101 @@ To run the program use:
 make run
 ```
 
-On running the program, it asks for the path to a scene file (sample file scene.txt is given) and a path to the destination file where the final image will be stored in ppm format.
+On running the program, it asks for the path to a scene file (sample file scene.json is given) and a path to the destination file where the final image will be stored in ppm format.
+
+## Latest update:
+
+- Reflection and Refraction added
+- Scene file format changed from custom definition to JSON
 
 ## Syntax for the scene file:
 
-### To set camera location:
-
-```
-CAM x y z
-```
-where x, y and z are the coordinates.
-
-### To set output resolution:
-
-```
-RES <width> <height>
+```json
+{
+	"camera": [x, y, z],
+	"resolution": [w, h],
+	"objects": [{...}, {...}],
+	"lights": [{...}, {...}]
+}
 ```
 
-### To add a sphere to the scene:
+Currently, the only supported object type is a sphere and the only supported light type is point light.
 
-```
-SPH x y z r #col
-```
-where x, y and z are the coordinates of the center of the sphere, r is the radius and #col is the color of the sphere in hex format.
+### Fields for object
 
-### To add a point light source to the scene:
+<table>
+	<tr>
+		<th>Field</th><th>Format</th><th>Default</th>
+	</tr>
+	<tr>
+		<td>id</td><td>string</td><td>No default; currently unused</td>
+	</tr>
+	<tr>
+		<td>type</td><td>string</td><td>"sphere"; field currently ignored</td>
+	</tr>
+	<tr>
+		<td>radius</td><td>double</td><td>0</td>
+	</tr>
+	<tr>
+		<td>center</td><td>[double, double, double]</td><td>[0, 0, 0]</td>
+	</tr>
+	<tr>
+		<td>material</td><td>JSON object</td><td>Check [Fields for material](#fields-for-material) section</td>
+	</tr>
+</table>
 
-```
-PLT x y z #col
-```
-where x, y and z are the coordinates of the location and #col is the color of the point light source in hex format.
+### Fields for material
+
+<table>
+	<tr>
+		<th>Field</th><th>Format</th><th>Default</th>
+	</tr>
+	<tr>
+		<td>color</td><td>string or [double, double, double]</td><td>"#000000" or [0, 0, 0]; uses RGB format</td>
+	</tr>
+	<tr>
+		<td>ambient</td><td>double</td><td>0.05</td>
+	</tr>
+	<tr>
+		<td>diffuse</td><td>double</td><td>1.0</td>
+	</tr>
+	<tr>
+		<td>specular</td><td>double</td><td>1.0</td>
+	</tr>
+	<tr>
+		<td>reflection</td><td>double</td><td>0.5</td>
+	</tr>
+	<tr>
+		<td>refraction</td><td>double</td><td>0.5</td>
+	</tr>
+	<tr>
+		<td>refr_ind</td><td>double</td><td>1.0</td>
+	</tr>
+</table>
+
+### Fields for light
+
+<table>
+	<tr>
+		<th>Field</th><th>Format</th><th>Default</th>
+	</tr>
+	<tr>
+		<td>id</td><td>string</td><td>No default; currently unused</td>
+	</tr>
+	<tr>
+		<td>type</td><td>string</td><td>No default; only "point" currently supported</td>
+	</tr>
+	<tr>
+		<td>position</td><td>[double, double, double]</td><td>[0, 0, 0]</td>
+	</tr>
+	<tr>
+		<td>color</td><td>string or [double, double, double]</td><td>"#000000" or [0, 0, 0]; uses RGB format</td>
+	</tr>
+</table>
 
 ## Sample output image
 
-In the following sample output, the 4 spheres are intersecting with each other and there are 2 point light sources in the scene. While the actual output of the code is a .ppm file, the image has been converted to JPEG format using GIMP to be embedded in this ReadMe file.
+In the following sample output, the 4 spheres are not intersecting with each other. They reflect and refract off of each other to give the result seen below. While the actual output of the code is a .ppm file, the image has been converted to JPEG format using GIMP to be embedded in this ReadMe file.
 
 ![Sample output image](./test.jpg)
 
