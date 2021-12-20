@@ -1,6 +1,6 @@
 {
 	"camera": [0, 0, -1],
-	"resolution": [1920, 1080],
+	"resolution": [854, 480],
 	"objects": [
 		{
 			"id": "sphere1",
@@ -80,9 +80,9 @@
 	],
 	"lights": [
 		{
-			"id": "ptl1",
-			"type": "point",
-			"position": [-2, -4, -10],
+			"id": "drl1",
+			"type": "directional",
+			"direction": [1, 1, 1],
 			"color": "#FFFFF"
 		}
 	]

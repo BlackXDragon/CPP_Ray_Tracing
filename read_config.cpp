@@ -96,6 +96,21 @@ void read_scene(std::string spath, Vector3D *camera, std::vector<Sphere> *object
 				}
 				lights->push_back(new PointLight(color, position));
 			}
+			else if (ltjson[i]["type"] == "directional") {
+				Vector3D direction;
+				if (!ltjson[i]["direction"].is_null() && (ltjson[i]["direction"].size() == 3))
+					direction = Vector3D(ltjson[i]["direction"][0], ltjson[i]["direction"][1], ltjson[i]["direction"][2]);
+				Color color;
+				if (ltjson[i]["color"].is_string()) {
+					assert(ltjson[i]["color"].get<std::string>().substr(0, 1) == "#");
+					color = Color(ltjson[i]["color"].get<std::string>().c_str());
+				} else if (ltjson[i]["color"].is_array() && (ltjson[i]["color"].size() == 3)) {
+					color = Color(ltjson[i]["color"][0], ltjson[i]["color"][1], ltjson[i]["color"][2]);
+				} else {
+					color = Color();
+				}
+				lights->push_back(new DirectionalLight(color, direction));
+			}
 		}
 	}
 }

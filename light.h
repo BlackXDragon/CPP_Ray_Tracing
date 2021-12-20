@@ -30,8 +30,17 @@ class PointLight : public Light {
 		std::string __repr__();
 };
 
-std::ostream &operator<<(std::ostream &output, PointLight& pl);
+class DirectionalLight : public Light {
+	public:
+		Vector3D direction;
+		DirectionalLight();
+		DirectionalLight(Color color, Vector3D direction);
+		Color calculateDiffuse(Vector3D hit_pos, Material material, Vector3D hit_normal);
+		Color calculateSpecular(Vector3D hit_pos, Material material, Vector3D hit_normal, Vector3D to_cam, double specular_k);
+		void print();
+		std::string __repr__();
+};
 
-std::ostream &operator<<(std::ostream &output, Light& l);
+std::ostream &operator<<(std::ostream &output, PointLight& pl);
 
 #endif // LIGHT_H

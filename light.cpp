@@ -64,3 +64,42 @@ std::ostream &operator<<(std::ostream &output, PointLight& pl) {
 std::ostream &operator<<(std::ostream &output, Light& l) {
 	return output << l.__repr__();
 }
+
+DirectionalLight::DirectionalLight() {
+	this->color = Color("#FFFFFF");
+	this->direction = Vector3D();
+}
+
+DirectionalLight::DirectionalLight(Color color, Vector3D direction) {
+	this->color = color;
+	this->direction = direction;
+}
+
+Color DirectionalLight::calculateDiffuse(Vector3D hit_pos, Material material, Vector3D hit_normal) {
+	// Lambert model
+	// std::cout << "DirectionalLight.calculateDiffuse" << this->position << std::endl;
+	Color change = material.color * material.diffuse * std::max(hit_normal.dot(this->direction), 0.0L);
+	// std::cout << "Change: " << change << std::endl;
+	return change;
+}
+
+Color DirectionalLight::calculateSpecular(Vector3D hit_pos, Material material, Vector3D hit_normal, Vector3D to_cam, double specular_k) {
+	// Blinn-Phong model
+	// std::cout << "DirectionalLight.calculateSpecular" << this->position << std::endl;
+	Vector3D half_vector = (this->direction + to_cam).normalize();
+	Color change = this->color * material.specular * pow(std::max(hit_normal.dot(half_vector), 0.0L), specular_k);
+	// std::cout << "Change: " << change << std::endl;
+	return change;
+}
+
+void DirectionalLight::print() {
+	std::cout << "<DirectionalLight (" << this->color << ", " << this->direction << ")>";
+}
+
+std::string DirectionalLight::__repr__() {
+	return "<DirectionalLight (" + this->color.__repr__() + this->direction.__repr__() + ")>";
+}
+
+std::ostream &operator<<(std::ostream &output, DirectionalLight& pl) {
+	return output << pl.__repr__();
+}

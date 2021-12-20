@@ -55,6 +55,9 @@ render: render.cpp renderer.o ray.o sphere.o color.o vector3d.o image.o light.o 
 run: render
 	@./render
 
+dist: render.cpp renderer.o ray.o sphere.o color.o vector3d.o image.o light.o read_config.o
+	@g++ -o render -static -Wl,-subsystem,windows render.cpp vector3d.o color.o image.o ray.o material.o sphere.o light.o renderer.o read_config.o 
+
 clean:
 	rm -f vector3d.o color.o image.o ray.o material.o light.o sphere.o renderer.o read_config.o render
 	rm -f tests/vectortest tests/colortest tests/imagetest tests/read_configtest
