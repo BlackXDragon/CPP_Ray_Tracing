@@ -1,6 +1,6 @@
 {
 	"camera": [0, 0, -1],
-	"resolution": [854, 480],
+	"resolution": [1920, 1080],
 	"objects": [
 		{
 			"id": "sphere1",
@@ -8,13 +8,13 @@
 			"radius": 1,
 			"center": [2.5, 0, 3],
 			"material": {
-				"color": "#00FFFF",
-				"ambient": 0.05,
-				"diffuse": 0.3,
-				"specular": 0.5,
-				"reflection": 0.7,
-				"refraction": 1,
-				"refr_ind": 1
+				"color": "#FFFFFF",
+				"ambient": 0.25,
+				"diffuse": 0.25,
+				"specular": 0.8,
+				"reflection": 0.65,
+				"refraction": 0,
+				"refr_ind": 0
 			}
 		},
 		{
@@ -80,9 +80,9 @@
 	],
 	"lights": [
 		{
-			"id": "drl1",
-			"type": "directional",
-			"direction": [1, 1, 1],
+			"id": "pl1",
+			"type": "point",
+			"position": [0, 1, 0],
 			"color": "#FFFFF"
 		}
 	]

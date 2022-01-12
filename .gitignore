@@ -1,4 +1,6 @@
 .vscode
 pywrapper
+build
+linux_build
 
 *.o
