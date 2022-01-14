@@ -8,6 +8,12 @@
 #include <light.h>
 #include <vector>
 #include <cmath>
+#include <chrono>
+#include <iostream>
+
+#ifdef THREADING
+	#include <thread_pool.hpp>
+#endif
 
 Image render(Vector3D camera, std::vector<Sphere> objects, std::vector<Light*> lights, int width, int height, int reflection_depth);
 

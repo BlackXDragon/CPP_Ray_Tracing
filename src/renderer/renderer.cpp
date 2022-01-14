@@ -6,6 +6,14 @@ Image render(Vector3D camera, std::vector<Sphere> objects, std::vector<Light*> l
 
 	// std::cout << "AR: " << aspect_ratio << std::endl;
 
+#ifdef THREADING
+	unsigned int n = std::thread::hardware_concurrency();
+
+	std::cout << "Using " << n << " threads." << std::endl;
+
+	thread_pool* pool = new thread_pool();
+#endif
+
 	double x0 = -1.0, x1 = 1.0;
 	double xstep = (x1 - x0) / (width - 1.0);
 	double y0 = -1.0 / aspect_ratio, y1 = 1.0 / aspect_ratio;
@@ -17,6 +25,9 @@ Image render(Vector3D camera, std::vector<Sphere> objects, std::vector<Light*> l
 	// lights[1]->print();
 	// std::cout << std::endl;
 
+#ifndef THREADING
+	auto begin = std::chrono::high_resolution_clock::now();
+
 	for (int i = 0; i < height; i++) {
 		double y = y0 + i * ystep;
 		for (int j = 0; j < width; j++) {
@@ -24,12 +35,48 @@ Image render(Vector3D camera, std::vector<Sphere> objects, std::vector<Light*> l
 			// std::cout << j << " " << i << std::endl;
 			Ray ray = Ray(camera, Vector3D(x, y, 0) - camera);
 			// std::cout << "Created ray" << std::endl;
-			Color color = ray_trace(ray, objects, camera, lights, reflection_depth, 1);
+			image.setPixel(j, i, ray_trace(ray, objects, camera, lights, reflection_depth, 1));
 			// std::cout << "Ray trace done: " << color << std::endl;
-			image.setPixel(j, i, color);
+			// image.setPixel(j, i, color);
 			// std::cout << "Pixel set" << std::endl;
 		}
 	}
+
+	auto end = std::chrono::high_resolution_clock::now();
+
+	std::cout << "Time taken without threading: " << std::chrono::duration_cast<std::chrono::milliseconds>(end - begin).count() << "ms" << std::endl;
+
+#else
+
+	auto begin = std::chrono::high_resolution_clock::now();
+
+	std::vector<std::future<Color>> futures;
+
+	for (int i = 0; i < height; i++) {
+		double y = y0 + i * ystep;
+		for (int j = 0; j < width; j++) {
+			double x = x0 + j * xstep;
+			// std::cout << j << " " << i << std::endl;
+			Ray ray = Ray(camera, Vector3D(x, y, 0) - camera);
+			// std::cout << "Created ray" << std::endl;
+			futures.push_back(pool->submit(ray_trace, ray, objects, camera, lights, reflection_depth, 1));
+			// std::cout << "Ray trace done: " << color << std::endl;
+			// image.setPixel(j, i, color);
+			// std::cout << "Pixel set" << std::endl;
+		}
+	}
+
+	for (int i = 0; i < height; i++) {
+		for (int j = 0; j < width; j++) {
+			image.setPixel(j, i, futures[i * width + j].get());
+		}
+	}
+
+	auto end = std::chrono::high_resolution_clock::now();
+
+	std::cout << "Time taken with threading: " << std::chrono::duration_cast<std::chrono::milliseconds>(end - begin).count() << "ms" << std::endl;
+#endif
+
 	return image;
 }
 

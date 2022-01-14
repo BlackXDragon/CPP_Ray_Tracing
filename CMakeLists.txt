@@ -1,7 +1,18 @@
-cmake_minimum_required(VERSION 3.19.2)
+cmake_minimum_required(VERSION 3.16.2)
 
 project(CRT VERSION 1.0)
 
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+option(THREADING "Use multithreading" ON)
+
+IF(THREADING)
+	add_compile_definitions("THREADING")
+    set(THREAD_POOL_INCLUDE_DIR "${PROJECT_SOURCE_DIR}/external/thread-pool")
+ENDIF(THREADING)
+
+add_subdirectory(external)
 add_subdirectory(src)
 
 install(TARGETS ${PROJECT_NAME} DESTINATION bin)
