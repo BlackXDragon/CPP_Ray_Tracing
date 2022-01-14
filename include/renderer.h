@@ -4,8 +4,8 @@
 #include <vector3d.h>
 #include <color.h>
 #include <image.h>
-#include <sphere.h>
-#include <light.h>
+#include <objects/sphere.h>
+#include <lights/light.h>
 #include <vector>
 #include <cmath>
 #include <chrono>

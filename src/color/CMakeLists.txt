@@ -1,1 +1,0 @@
-add_library(color color.cpp color.h)

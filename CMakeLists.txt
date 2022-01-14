@@ -12,20 +12,31 @@ IF(THREADING)
     set(THREAD_POOL_INCLUDE_DIR "${PROJECT_SOURCE_DIR}/external/thread-pool")
 ENDIF(THREADING)
 
+set(${PROJECT_NAME}_INCLUDE_DIR ${PROJECT_SOURCE_DIR}/include)
+
 add_subdirectory(external)
 add_subdirectory(src)
 
-install(TARGETS ${PROJECT_NAME} DESTINATION bin)
+add_executable(${PROJECT_NAME}-bin render.cpp)
+
+target_link_libraries(${PROJECT_NAME}-bin ${PROJECT_NAME})
+
+set_target_properties(${PROJECT_NAME}-bin PROPERTIES OUTPUT_NAME ${PROJECT_NAME})
+
+install(TARGETS ${PROJECT_NAME} DESTINATION lib)
+install(TARGETS ${PROJECT_NAME}-bin DESTINATION bin)
+install(DIRECTORY ${${PROJECT_NAME}_INCLUDE_DIR} DESTINATION .)
+install(DIRECTORY ${THREAD_POOL_INCLUDE_DIR} DESTINATION external)
 
 include(InstallRequiredSystemLibraries)
 set(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_CURRENT_SOURCE_DIR}/License.txt")
 set(CPACK_PACKAGE_VERSION_MAJOR "1")
 set(CPACK_PACKAGE_VERSION_MINOR "0")
 set (CPACK_NSIS_EXTRA_INSTALL_COMMANDS "
-	CreateShortCut '$SMPROGRAMS\\$STARTMENU_FOLDER\\CRT.lnk' '$INSTDIR\\bin\\CRT.exe'
+	CreateShortCut '$SMPROGRAMS\\\\$STARTMENU_FOLDER\\\\CRT.lnk' '$INSTDIR\\\\bin\\\\CRT.exe'
     ")
 
 set (CPACK_NSIS_EXTRA_UNINSTALL_COMMANDS "
-    Delete '$SMPROGRAMS\\$STARTMENU_FOLDER\\CRT.lnk'
+    Delete '$SMPROGRAMS\\\\$STARTMENU_FOLDER\\\\CRT.lnk'
     ")
 include(CPack)

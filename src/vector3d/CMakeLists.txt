@@ -1,1 +1,0 @@
-add_library(vector3d vector3d.cpp vector3d.h)

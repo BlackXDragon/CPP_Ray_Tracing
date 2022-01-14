@@ -1,4 +1,4 @@
-#include "sphere.h"
+#include "objects/sphere.h"
 
 Sphere::Sphere(Vector3D center, double radius, Material material) : center(center), radius(radius), material(material) {}
 
