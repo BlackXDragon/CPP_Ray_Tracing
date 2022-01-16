@@ -1,32 +1,26 @@
 #include "image.h"
-#include <iostream>
-#include <vector>
 
 Image::Image(int width, int height, int max_color) : width(width), height(height), max_color(max_color) {
-	// this->pixels = new Color*[height];
+	this->pixels = (Color*) malloc(sizeof(Color) * height * width);
 	for (int i = 0; i < this->height; i++) {
-		// this->pixels[i] = new Color[width];
-		std::vector<Color> temp;
 		for (int j = 0; j < this->width; j++) {
-			// this->pixels[i][j] = Color();
-			temp.push_back(Color());
+			this->pixels[i * this->width + j] = Color(0, 0, 0);
 		}
-		this->pixels.push_back(temp);
 	}
 }
 
 void Image::setPixel(int x, int y, Color color) {
 	// std::cout << "setPixel" << std::endl;
-	if (x >= width || x < 0 || y >= height || y < 0) {
+	if (x > width || x < 0 || y > height || y < 0) {
 		std::cout << "Pixel indices out of bounds: " << x << " " << y << " " << color << std::endl;
 		throw "Pixel indices out of bounds.";
 	}
 	// std::cout << "in bounds " << this->pixels[x][y] << std::endl;
-	this->pixels[y][x].r = color.r;
+	this->pixels[x * this->width + y].r = color.r;
 	// std::cout << "r set" << std::endl;
-	this->pixels[y][x].g = color.g;
+	this->pixels[x * this->width + y].g = color.g;
 	// std::cout << "g set" << std::endl;
-	this->pixels[y][x].b = color.b;
+	this->pixels[x * this->width + y].b = color.b;
 	// std::cout << x << " " << y << ": " << this-> pixels[x][y] << std::endl;
 }
 
@@ -35,7 +29,7 @@ std::ostream &operator<<(std::ostream &output, const Image& im) {
 	output << im.max_color << std::endl;
 	for (int i = 0; i < im.height; i++) {
 		for (int j = 0; j < im.width; j++) {
-			output << std::round(std::min(std::max(im.pixels[i][j].r * 255.0, 0.0L), 255.0L)) << " " << std::round(std::min(std::max(im.pixels[i][j].g * 255.0, 0.0L), 255.0L)) << " " << std::round(std::min(std::max(im.pixels[i][j].b * 255.0, 0.0L), 255.0L)) << " ";
+			output << std::round(std::min(std::max(im.pixels[j * im.width + i].r * 255.0, 0.0L), 255.0L)) << " " << std::round(std::min(std::max(im.pixels[j * im.width + i].g * 255.0, 0.0L), 255.0L)) << " " << std::round(std::min(std::max(im.pixels[j * im.width + i].b * 255.0, 0.0L), 255.0L)) << " ";
 		}
 		output << std::endl;
 	}
