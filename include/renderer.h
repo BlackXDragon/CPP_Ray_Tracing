@@ -11,18 +11,18 @@
 #include <chrono>
 #include <iostream>
 
-#ifdef THREADING
+#if SPEEDUP==1
 	#include <thread_pool.hpp>
 #endif
 
-Image render(Vector3D camera, std::vector<Sphere> objects, std::vector<Light*> lights, int width, int height, int reflection_depth);
+Image render(Vector3D camera, Sphere** objects, int n_objects, Light** lights, int n_lights, int width, int height, int reflection_depth);
 
-Color ray_trace(Ray ray, std::vector<Sphere> objects, Vector3D camera, std::vector<Light*> lights, int reflection_depth, int depth);
+Color ray_trace(Ray ray, Sphere** objects, int n_objects, Vector3D camera, Light** lights, int n_lights, int reflection_depth, int depth);
 
-double find_refr_index(std::vector<Sphere> objects, Vector3D position);
+double find_refr_index(Sphere** objects, int n_objects, Vector3D position);
 
-void find_nearest(Ray ray, std::vector<Sphere> objects, double *dist_hit, Sphere *object_hit, bool *success);
+void find_nearest(Ray ray, Sphere** objects, int n_objects, double *dist_hit, Sphere *object_hit, bool *success);
 
-Color color_at(Sphere object_hit, Vector3D hit_pos, std::vector<Sphere> objects, Vector3D camera, std::vector<Light*> lights);
+Color color_at(Sphere object_hit, Vector3D hit_pos, Sphere** objects, int n_objects, Vector3D camera, Light** lights, int n_lights);
 
 #endif // RENDERER_H
