@@ -5,8 +5,14 @@
 #include <fstream>
 #include <string>
 #include <json.hpp>
-#include <renderer.h>
+#include <vector3d.h>
+#include <color.h>
+#include <ray.h>
+#include <material.h>
+#include <image.h>
+#include <objects/sphere.h>
+#include <lights/light.h>
 
-void read_scene(std::string spath, Vector3D *camera, std::vector<Sphere> *objects, std::vector<Light*> *lights, int *width, int *height);
+void read_scene(std::string spath, Vector3D *camera, Sphere* **objects, int* n_objects, Light* **lights, int* n_lights, int *width, int *height);
 
 #endif // READ_CONFIG_H

@@ -1,9 +1,10 @@
 #include "read_config.h"
 
-void read_scene(std::string spath, Vector3D *camera, std::vector<Sphere> *objects, std::vector<Light*> *lights, int *width, int *height) {
+void read_scene(std::string spath, Vector3D *camera, Sphere* **objects, int* n_objects, Light* **lights, int* n_lights, int *width, int *height) {
 	std::ifstream sceneFile(spath);
 	nlohmann::json j;
 	sceneFile >> j;
+
 	if (j["camera"].is_null() || (j["camera"].size() != 3)) {
 		std::cout << "No or invalid camera config found (" << j["camera"] << "). Using default (0, 0, -1)." << std::endl;
 		*camera = Vector3D(0, 0, -1);
@@ -24,6 +25,9 @@ void read_scene(std::string spath, Vector3D *camera, std::vector<Sphere> *object
 		std::cout << "No objects found in the config file!" << std::endl;
 	} else {
 		nlohmann::json objson = j["objects"];
+		*objects = (Sphere**)malloc(sizeof(Sphere*) * objson.size());
+		*n_objects = 0;
+		
 		for (int i = 0; i < objson.size(); i++) {
 			Vector3D center;
 			if (!objson[i]["center"].is_null() && (objson[i]["center"].size() == 3))
@@ -73,13 +77,17 @@ void read_scene(std::string spath, Vector3D *camera, std::vector<Sphere> *object
 					m.refr_ind = 0;
 				}
 			}
-			objects->push_back(Sphere(center, radius, m));
+			(*objects)[*n_objects] = new Sphere(center, radius, m);
+			(*n_objects)++;
 		}
 	}
 	if (j["lights"].is_null() || (j["lights"].size() < 1)) {
 		std::cout << "No lights found in the config file!" << std::endl;
 	} else {
 		nlohmann::json ltjson = j["lights"];
+		*lights = (Light**)malloc(sizeof(Light*)*ltjson.size());
+		*n_lights = 0;
+		
 		for (int i = 0; i < ltjson.size(); i++) {
 			if (ltjson[i]["type"] == "point") {
 				Vector3D position;
@@ -94,7 +102,8 @@ void read_scene(std::string spath, Vector3D *camera, std::vector<Sphere> *object
 				} else {
 					color = Color();
 				}
-				lights->push_back(new PointLight(color, position));
+				(*lights)[*n_lights] = new PointLight(color, position);
+				(*n_lights)++;
 			}
 			else if (ltjson[i]["type"] == "directional") {
 				Vector3D direction;
@@ -109,7 +118,8 @@ void read_scene(std::string spath, Vector3D *camera, std::vector<Sphere> *object
 				} else {
 					color = Color();
 				}
-				lights->push_back(new DirectionalLight(color, direction));
+				(*lights)[*n_lights] = new PointLight(color, direction);
+				(*n_lights)++;
 			}
 		}
 	}
