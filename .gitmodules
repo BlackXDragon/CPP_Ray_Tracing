@@ -1,5 +1,5 @@
-[submodule "external/thread-pool"]
-	path = external/thread-pool
+[submodule "external/thread_pool"]
+	path = external/thread_pool
 	url = https://github.com/bshoshany/thread-pool.git
 [submodule "wiki"]
 	path = wiki

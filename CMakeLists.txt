@@ -22,8 +22,8 @@ if(GIT_FOUND AND EXISTS "${PROJECT_SOURCE_DIR}/.git")
 endif()
 
 #CHECK ALL THE SUBMODULES
-if(NOT EXISTS "${PROJECT_SOURCE_DIR}/external/wxWidgets/CMakeLists.txt")
-    message(FATAL_ERROR "The glfw submodules was not downloaded! GIT_SUBMODULE was turned off or failed. Please update submodules and try again.")
+if(NOT EXISTS "${PROJECT_SOURCE_DIR}/external/thread-pool/README.md")
+    message(FATAL_ERROR "The thread-pool submodules was not downloaded! GIT_SUBMODULE was turned off or failed. Please update submodules and try again.")
 endif()
 
 option(THREADING "Use multithreading" ON)
